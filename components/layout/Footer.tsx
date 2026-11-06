@@ -8,7 +8,7 @@ export default function Footer() {
           NANDO ADILETTA
           <small>TATTOO ARTIST / VISUAL ART</small>
         </a>
-        <p className="footer-copy">© {new Date().getFullYear()} Nando Adiletta. All rights reserved.</p>
+        <p className="footer-copy">© 2026 Nando Adiletta. All rights reserved.</p>
         <div className="footer-social">
           <a href={instagram} target="_blank" rel="noreferrer">Instagram ↗</a>
           <a href="#home">Back to top ↑</a>
