@@ -3,13 +3,14 @@ import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "Nome do Artista",
-  description: "Site oficial",
+  title: "Nando Adiletta — Tattoo Artist & Visual Artist",
+  description:
+    "Tattoo portfolio and selected creative work by Nando Adiletta. Explore tattoos, style and visual art.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body>
         <Header />
         <main>{children}</main>
